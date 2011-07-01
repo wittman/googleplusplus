@@ -54,4 +54,6 @@ function googlePlusPlus(){
 }
 
 // Load jQuery and execute the main function
-addJQuery(googlePlusPlus);
+if(window.location.href.indexOf('/notifications/') == -1){ //Doesn't work on Notifications page right now.
+	addJQuery(googlePlusPlus);
+}
