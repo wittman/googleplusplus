@@ -4,7 +4,7 @@
 // @namespace      http://wittman.org/projects/googleplusplus
 // @include        *plus.google.com*
 // @description	   Changes appearance of Google Plus by hiding left and right side bars and widening main content containers.
-// @version		   0.1
+// @version		   0.1.1
 // ==/UserScript==
 
 // Function that loads jQuery and calls a callback function when jQuery has finished loading
